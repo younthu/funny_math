@@ -3,6 +3,11 @@ from manim import *
 # 请确保你的系统已安装"Microsoft YaHei"或替换为本机可用的中文字体
 CH_FONT = "Microsoft YaHei"
 
+# 设置全局摄像机参数（在任何场景类定义之前）
+config.frame_width = 14 + 2  # 默认是14，增大则画面缩小，四周留白
+config.frame_height = 8 + 2 # 默认是8，增大则画面缩小，四周留白
+
+
 # 50px约等于manim默认分辨率下的0.9单位
 MARGIN = 0.9
 
